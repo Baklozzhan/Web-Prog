@@ -1,0 +1,120 @@
+
+body{
+    margin: 0;
+}
+.smesh{
+    background-color: rgba(8, 69, 109, 0.91);
+    display: flex;
+    padding: 20px;
+    column-gap: 500px;
+    width: 96.7%;
+}
+
+.indigo{
+    background-image: url("https://resizer.mail.ru/p/4144c68a-a3c1-5707-a4ee-587a67835704/AQAKcNoIjQeE6kY-7grw5yqCRkCRBB0Ll77IOsX7Ssv8ZjXNjR6VqdUmmebsw1S7jy3F3TKj9SFyLtjLORC7SHETNE4.jpg");
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    background-size: cover;
+
+}
+h1{
+    margin-left: auto;
+    margin-right: auto;
+}
+.indigo_ins{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    column-gap: 50px;
+    padding: 20px;
+    justify-content: center;
+}
+.indigo_left{
+    justify-content: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    width: 40%;
+
+
+
+}
+.indigo_right{
+    justify-content: center;
+    padding: 10px;
+    gap:10px;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+
+}
+.b1{
+    background: linear-gradient(70deg, blue, pink);;
+    height: 250px;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.b2{
+    background: linear-gradient(70deg, blue, pink);;
+    height: 250px;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+
+
+}
+ .b3{
+     margin-right: auto;
+     margin-left: auto;
+     background: linear-gradient(70deg, blue, pink);;
+     height: 250px;
+     width: 90%;
+     display: flex;
+     flex-direction: column;
+
+
+
+ }
+
+ .b4{
+     margin-right: auto;
+     margin-left: auto;
+     background: linear-gradient(70deg, blue, pink);;
+     height: 250px;
+     width: 90%;
+     display: flex;
+     flex-direction: column;
+ }
+
+ .s1{
+     color: black;
+     background-color: dimgray;
+
+
+ }
+.s1:hover {
+    color: red;
+    background-color: black;
+    cursor: pointer;
+}
+
+
+zg{
+    margin-left: auto;
+    margin-right: auto;
+
+}
