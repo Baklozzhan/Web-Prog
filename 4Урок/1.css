@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+}
+
+.glav_block{
+    background-color: tomato;
+    width: 700px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.glav_block2{
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.peshka_glav{
+    margin-left: auto;
+    margin-right: auto;
+    font-family:  Helvetica, Arial, sans-serif;
+    color: white;
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+.divka_slabiy{
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    border: 1px solid black;
+
+
+}
+
+#input_text{
+    width: 70%;
+    height: 30px;
+}
+
+.prosto_button{
+    width: 30%;
+}
+

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="1.css">
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div class="glav_block">
+    <p class="peshka_glav"> My To Do List</p>
+    <div class="divka_slabiy"> <input id="input_text" type="text" placeholder="Коля чмо)">
+        <button class="prosto_button" onclick="addElement()"> Add </button>
+
+    </div>
+
+
+</div>
+<div class="glav_block2">
+    <ul id="chmo">
+
+
+    </ul>
+</div>
+
+<script>
+    var myNodelist = document.getElementsByTagName("li")
+    var i;
+    for (i=0; i < myNodelist.length; i++){
+        var span = document.createElement("span");
+        var txt = document.createTextNode("\u00D7");
+        span.className = "chmokritie";
+        span.appendChild(txt);
+        myNodelist[i].appendChild(span)
+    }
+    var close = document.getElementsByClassName("chmokritie");
+    var i;
+    for (i = 0; i < close.length; i++) {
+        close[i].onclick = function() {
+            var div = this.parentElement;
+            div.style.display = "none";
+        }
+    }
+
+
+
+
+    function addElement() {
+        var li = document.createElement("li")
+        var inputValue = document.getElementById("input_text").value
+        var t = document.createTextNode(inputValue)
+        li.appendChild(t)
+        if (inputValue === "") {
+            alert("ТЫ НИЧЕГО НЕ ВВЕЛ ЧМО!!!")
+        }
+        else {
+            document.getElementById("chmo").appendChild(li)
+        } document.getElementById("input_text").value = ""
+
+        var span = document.createElement("span");
+        var txt = document.createTextNode("\u00D7");
+        span.className = "chmokritie";
+        span.appendChild(txt);
+        myNodelist[i].appendChild(span)
+
+        for (i = 0; i < close.length; i++) {
+            close[i].onclick = function() {
+                var div = this.parentElement;
+                div.style.display = "none";
+            }
+        }
+    }
+</script>
+</body>
+</html>
