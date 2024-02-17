@@ -1,0 +1,401 @@
+body{
+    margin: 0;
+}
+
+.header{
+    display: flex;
+    padding: 12.5px;
+    column-gap: 500px;
+    width: 96.7%;
+    background-color: rgba(115, 89, 255, 1);
+    color: white;
+
+
+}
+.img_header{
+    width: 30px;
+    height: 15px;
+}
+.header_right{
+    display: flex;
+    flex-direction: row;
+    margin-left: 120px;
+    column-gap: 25px;
+
+
+}
+
+.header_left{
+    display: flex;
+    flex-direction: row;
+    margin-left: 220px;
+}
+.left_txt{
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+
+}
+
+.right_txt{
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+}
+
+.right_txt:hover {
+    color: black;
+    cursor: pointer;
+
+}
+.glav_block{
+    width: 950px;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+
+.glav_block_left{
+    padding: 5px;
+    width: 50%;
+    height: 500px;
+
+}
+
+.glav_block_right{
+    background-image: url("https://testter.kz/frontend/web/uploads/illustr1.svg") ;
+    background-size: cover;
+    width: 50%;
+    height: 500px;
+
+
+}
+
+.txt_l{
+    margin: 0;
+    font-size: 35px;
+    border-bottom: none;
+    line-height: 50px;
+    font-weight: 800;
+    font-family: 'Roboto', sans-serif;
+}
+
+.txt_l1{
+    position: relative;
+    font-family: 'Inter', sans-serif;
+    line-height: 23px;
+    font-weight: 215;
+    padding-right: 15px;
+    padding-left: 1px;
+    width: 375px;
+
+}
+
+.colop{
+    width: 170px;
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    background-color: #fc6b74;
+    border: 1px solid #fc6b74;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+.colop:hover{
+    cursor:pointer ;
+    background-color: white;
+    color: #fc6b74;
+}
+.prob{
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+.txt_line{
+    position: absolute;
+    font-size: 13px;
+    color: dimgray;
+    left:650px;
+    bottom: 100px;
+    font-family: 'Inter', sans-serif;;
+}
+.left_line{
+    position: absolute;
+    width: 370px;
+    color: dimgray;
+    left: 270px;
+    top:615px;
+}
+.right_line{
+    position: absolute;
+    right: 230px;
+    width: 410px;
+    color: dimgray;
+    top: 615px;
+}
+
+.main_box{
+    width: 900px;
+    position: relative;
+    top:40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px;
+    gap: 20px;
+    justify-content: center;
+}
+
+.slave_box{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.img_slave{
+    width: 49px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.img_slave:hover{
+    cursor:pointer ;
+    color:#8472e7;;
+
+}
+
+.p_slave{
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    font-weight: 730;
+    text-align: center;
+    line-height: 12px;
+}
+
+.p_slave:hover{
+    cursor:pointer ;
+    color:#8472e7;;
+
+
+}
+
+.line_2{
+    position: absolute;
+    width: 900px;
+    color: dimgray;
+    left: 280px;
+    top:994px;
+
+}
+
+.line_3{
+    top:1037px;
+    color: black;
+    position: absolute;
+    left: 280px;
+    width: 12px;
+
+}
+
+.text_line{
+    position: absolute;
+
+    top: 1030px;
+    font-size: 10px;
+    color: dimgray;
+    left:297px;
+    bottom: 100px;
+    font-family: 'Inter', sans-serif;;
+
+}
+
+.glav_block2 {
+    width: 950px;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    position: relative;
+    top:50px;
+}
+.glav_block_left2 {
+
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    row-gap: 45px;
+    width: 50%;
+
+}
+
+.peshka{
+    margin: 0;
+    width: 400px;
+    font-size: 27px;
+    line-height: 30px;
+    font-weight: 740;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.peshka2{
+    margin: 0;
+    top: 30px;
+    width: 430px;
+    text-align: justify;
+    font-size: 14px;
+    color: #3b3a3a;
+    line-height: 25px;
+    font-weight: 190;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+.glav_block_right2 {
+    background-image: url("https://testter.kz/frontend/web/uploads/offer1.svg");
+    background-size: cover;
+    width: 50%;
+    height: 380px;
+}
+
+.line_4 {
+    top: 1528px;
+    color: black;
+    position: absolute;
+    left: 804px;
+    width: 12px;
+}
+
+.text_line2{
+    position: absolute;
+
+    top: 1520px;
+    font-size: 11px;
+    color: dimgray;
+    left:820px;
+    bottom: 100px;
+    font-family: 'Inter', sans-serif;;
+
+}
+
+.dangeon_block{
+    column-gap: 110px;
+    width: 950px;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    position: relative;
+    top:50px;
+
+}
+
+.dangeon_block_left{
+    background-image: url("https://testter.kz/frontend/web/uploads/offer2.svg");
+    background-size: cover;
+    width: 46%;
+    height: 360px;
+
+}
+
+.dangeon_block_right{
+    display: flex;
+    flex-direction: column;
+    padding-top: 80px;
+    row-gap: 45px;
+    width: 50%;
+
+}
+
+.peshka3{
+    margin: 0;
+    width: 400px;
+    font-size: 27px;
+    left: 200px;
+    line-height: 35px;
+    font-weight: 780;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+
+.peshka4{
+    margin: 0;
+    top: 30px;
+    width: 380px;
+    text-align: justify;
+    font-size: 14px;
+    color: #3b3a3a;
+    line-height: 25px;
+    font-weight: 190;
+    font-family: 'Roboto', sans-serif;
+}
+
+.line_5{
+    position: absolute;
+    width: 900px;
+    color: dimgray;
+    left: 280px;
+    top:1880px;
+
+}
+
+.master_div{
+    width: 970px;
+    position: relative;
+    top:90px;
+    display: flex;
+    flex-direction: row;
+    margin-right: auto;
+    margin-left: auto;
+    gap: 50px;
+
+}
+
+.slave_div{
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+}
+
+.int_txt{
+    margin: 0;
+    color: #fc6b74;
+    font-weight: 600;
+    line-height: 50px;
+    font-size: 36px;
+}
+
+.peshka_txt{
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    font-weight: 700;
+    color: black;
+    line-height: 34px;
+
+}
+
+.peshka_txt2{;
+    font-weight: 400;
+    margin-top: 30px;
+    width: 100%;
+    padding-right: 62px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5;
+
+}
